@@ -39,6 +39,21 @@ function Cards() {
               label='IAI'
               path='/services'
               />  
+
+              <CardItem
+              src='images/img-2.jpg'
+              text='iai chantier le lieur de mes mieuleur rencontre'
+              label='IAI'
+              path='/services'
+              />  
+
+              <CardItem
+              src='images/img-2.jpg'
+              text='iai chantier le lieur de mes mieuleur rencontre'
+              label='IAI'
+              path='/services'
+              />  
+
               <CardItem
               src='images/img-4.jpg'
               text='iai chantier le lieur de mes mieuleur rencontre'

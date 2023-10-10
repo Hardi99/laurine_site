@@ -1,0 +1,61 @@
+.contacts-container {
+    padding: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .contact-details,
+  .partner-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .partner-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .partner-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .partner-text p {
+    margin: 0;
+  }
+  
+  .about-us {
+    margin-top: 20px;
+  }
+  
+  .about-text {
+    margin-bottom: 10px;
+  }
+  
+  .profile-images {
+    display: flex;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile p {
+    margin: 0;
+  }
+  

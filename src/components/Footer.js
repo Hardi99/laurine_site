@@ -8,59 +8,58 @@ function Footer() {
     <div className='footer-container'>
         <section className="footer-subscription">
            <p className="footer-subscription-heading">
-            join cet avanture a vie dans le maison de tes reve
+            Pour votre maision de rêve n'hésitez a nous contactez
             </p>
             <p className="footer-subscription-text">
-                You can unsubscribe at any time.
+                Vous pouvez vous enregistrez a tout moment
             </p> 
             <div className="input-areas">
                 <form>
                     <input 
                     type="email" 
                     name="email" 
-                    placeholder="Your Email" 
+                    placeholder="Votre E-mail" 
                     className="footer-input"
                     />
-                    <Button buttonStyle='btn--outline'>Subscribe</Button>
+                    <Button buttonStyle='btn--outline'>S'inscrire</Button>
                 </form>
              </div>
         </section>
         <div className="footer-links">
             <div className="footer-link-wrapper">
                 <div className="footer-link-items"> 
-                    <h2>About Us</h2>
-                    <Link to='/sign-up'> How it work</Link>
-                    <Link to='/'>Testimonial</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of service</Link>
+                    <h2>A propos</h2>
+                    <Link to='/sign-up'> connection</Link>
+                    <Link to='/services'>Nos offres</Link>
+                    <Link to='/services'>Nos service</Link>
+                    <Link to='/'>Investisseurs</Link>
+                    <Link to='/'></Link>
                 </div>
                 <div className="footer-link-items"> 
-                    <h2>Contact Us</h2>
-                    <Link to='/sign-up'> How it work</Link>
-                    <Link to='/'>Testimonial</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of service</Link>
+                    <h2>Contacts</h2>
+                    <Link to='/sign-up'> Nos activitez</Link>
+                    <Link to='/'>Nos offres</Link>
+                    <Link to='/'>Nos services</Link>
+                    <Link to='/'>Investisseurs</Link>
+                    
                 </div>
                 
             </div>
             <div className="footer-link-wrapper">
                 <div className="footer-link-items"> 
-                    <h2>About Us</h2>
-                    <Link to='/sign-up'> How it work</Link>
-                    <Link to='/'>Testimonial</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of service</Link>
+                    <h2>Services</h2>
+                    <Link to='/sign-up'> Construction</Link>
+                    <Link to='/'>Etude du site</Link>
+                    <Link to='/'>Plan & devis</Link>
+                    <Link to='/'>Elevation</Link>
+                    <Link to='/'>Finition et habillage</Link>
                 </div>
                 <div className="footer-link-items"> 
-                    <h2>Contact Us</h2>
-                    <Link to='/sign-up'> How it work</Link>
-                    <Link to='/'>Testimonial</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of service</Link>
+                    <h2>Autres</h2>
+                    <Link to='/sign-up'> Vente des terrain & maison</Link>
+                    <Link to='/'>Location des maison</Link>
+                    <Link to='/'>location des appartements meublé</Link>
+                    <Link to='/'>vente des services</Link>
                 </div>
                 
             </div>
@@ -111,6 +110,14 @@ function Footer() {
                     target='_blank'
                     aria-label='LinkedIn'>
                         <i className='fab fa-linkedin'/>
+                    </Link>
+
+                    <Link 
+                    className="social-icon-link tiktok"
+                    to='/'
+                    target='_blank'
+                    aria-label='Tiktok'>
+                        <i className='fab fa-tiktok'/>
                     </Link>
                 </div>
             </div>
