@@ -1,23 +1,31 @@
-.contacts-container {
+  .contacts-container {
     padding: 20px;
+  }
+
+  .contact-bloc {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px; 
+    background: #242424; 
+    color: white; 
+    border-radius: 10px;
+  }
+
+  .contact-bloc h2 {
+    margin-bottom: 20px;
   }
   
   .contact-info {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 20px 0;
-  }
-  
-  .contact-details,
-  .partner-info {
-    flex: 1;
-    margin-right: 20px;
   }
   
   .partner-profile {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    margin-top: 10px;
   }
   
   .partner-profile img {
@@ -31,21 +39,19 @@
     margin: 0;
   }
   
-  .about-us {
-    margin-top: 20px;
-  }
-  
   .about-text {
     margin-bottom: 10px;
   }
   
   .profile-images {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
   
   .profile {
     text-align: center;
-    margin-right: 20px;
   }
   
   .profile img {
